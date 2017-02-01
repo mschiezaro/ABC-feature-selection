@@ -1,0 +1,275 @@
+AutosFeatureSelectionExecution
+executeFullFeaturesWithNoFilters
+Full 32.68292682926829 %
+executeWithNoFilter
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [true, false, false, false, false, true, true, true, true, true, true, true, false, false, true, false, false, false, false, false, false, false, false, false, false], fitness = 82.92682926829268 %, limit = 0, nrFeatures = 9 ]
+Executado em 657 percorrendo 24770 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesNormalized
+Full 57.5609756097561 %
+executeWithNormalization
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, true, false, true, true, true, true, true, true, true, true, false, true, true, false, true, true, true, true, false, false, true, true, true, false], fitness = 59.51219512195122 %, limit = 0, nrFeatures = 18 ]
+Executado em 3 percorrendo 1659 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesZScore
+Full 67.3170731707317 %
+executeWithZScore
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, true, false, false, true, true, false, true, true, true, true, true, false, false, false, true, false, true, false, false, true, false, false, false, false], fitness = 74.14634146341463 %, limit = 0, nrFeatures = 11 ]
+Executado em 9 percorrendo 4648 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+
+
+BCancerFeatureSelectionExecution
+executeFullFeaturesWithNoFilters
+Full 73.07692307692308 %
+executeWithNoFilter
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, false, false, false, true, true, true, false, true], fitness = 75.87412587412588 %, limit = 0, nrFeatures = 4 ]
+Executado em 0 percorrendo 126 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesNormalized
+Full 73.07692307692308 %
+executeWithNormalization
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, true, false, false, true, true, false, false, false], fitness = 75.87412587412588 %, limit = 0, nrFeatures = 3 ]
+Executado em 0 percorrendo 125 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesZScore
+Full 73.07692307692308 %
+executeWithZScore
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, false, false, false, true, true, false, false, false], fitness = 75.87412587412588 %, limit = 0, nrFeatures = 2 ]
+Executado em 0 percorrendo 128 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+
+
+DiabetesFeatureSelectionExecution
+executeFullFeaturesWithNoFilters
+Full 65.10416666666667 %
+executeWithNoFilter
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, true, false, false, false, false, false, false], fitness = 71.484375 %, limit = 0, nrFeatures = 1 ]
+Executado em 647 percorrendo 101 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesNormalized
+Full 76.953125 %
+executeWithNormalization
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [true, true, true, false, false, true, true, false], fitness = 77.734375 %, limit = 0, nrFeatures = 5 ]
+Executado em 0 percorrendo 80 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesZScore
+Full 75.65104166666667 %
+executeWithZScore
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [true, true, true, false, false, true, true, true], fitness = 77.21354166666667 %, limit = 0, nrFeatures = 6 ]
+Executado em 0 percorrendo 66 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+
+
+GlassFeatureSelectionExecution
+executeFullFeaturesWithNoFilters
+Full 68.69158878504673 %
+executeWithNoFilter
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, true, true, true, false, true, true, true, false], fitness = 71.49532710280374 %, limit = 0, nrFeatures = 6 ]
+Executado em 0 percorrendo 89 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesNormalized
+Full 47.19626168224299 %
+executeWithNormalization
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, false, true, true, false, false, false, true, true], fitness = 54.205607476635514 %, limit = 0, nrFeatures = 4 ]
+Executado em 0 percorrendo 185 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesZScore
+Full 72.42990654205607 %
+executeWithZScore
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [true, true, true, true, false, false, true, true, true], fitness = 72.42990654205607 %, limit = 0, nrFeatures = 7 ]
+Executado em 0 percorrendo 68 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+
+
+HeartCFeatureSelectionExecution
+executeFullFeaturesWithNoFilters
+Full 54.78547854785479 %
+executeWithNoFilter
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, true, true, false, false, true, true, false, true, false, false, true, true], fitness = 83.16831683168317 %, limit = 0, nrFeatures = 7 ]
+Executado em 1 percorrendo 663 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesNormalized
+Full 82.17821782178218 %
+executeWithNormalization
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, false, true, true, true, true, true, true, true, true, true, true, true], fitness = 83.16831683168317 %, limit = 0, nrFeatures = 11 ]
+Executado em 0 percorrendo 207 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesZScore
+Full 82.17821782178218 %
+executeWithZScore
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [true, true, true, false, true, true, false, true, true, true, true, true, true], fitness = 84.48844884488449 %, limit = 0, nrFeatures = 11 ]
+Executado em 0 percorrendo 226 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+
+
+HeartStatlogFeatureSelectionExecution
+executeFullFeaturesWithNoFilters
+Full 55.925925925925924 %
+executeWithNoFilter
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, false, true, false, false, false, false, false, false, false, false, true, true], fitness = 84.81481481481481 %, limit = 0, nrFeatures = 3 ]
+Executado em 0 percorrendo 455 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesNormalized
+Full 84.07407407407408 %
+executeWithNormalization
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, false, true, true, false, false, false, true, true, true, false, true, true], fitness = 85.55555555555556 %, limit = 0, nrFeatures = 7 ]
+Executado em 0 percorrendo 226 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesZScore
+Full 82.96296296296296 %
+executeWithZScore
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [true, false, true, true, false, true, false, true, true, true, true, true, true], fitness = 85.55555555555556 %, limit = 0, nrFeatures = 10 ]
+Executado em 0 percorrendo 228 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+
+
+HepaticFeatureSelectionExecution
+executeFullFeaturesWithNoFilters
+Full 79.35483870967742 %
+executeWithNoFilter
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, false, false, true, true, false, false, true, false, false, true, true, true, true, false, false, true, false, true], fitness = 87.09677419354838 %, limit = 0, nrFeatures = 9 ]
+Executado em 5 percorrendo 6583 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesNormalized
+Full 80.64516129032258 %
+executeWithNormalization
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, true, false, false, false, true, false, true, true, true, false, true, false, true, false, false, false, false, true], fitness = 85.80645161290323 %, limit = 0, nrFeatures = 8 ]
+Executado em 1 percorrendo 2625 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesZScore
+Full 87.74193548387096 %
+executeWithZScore
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, true, false, false, true, true, true, false, true, true, true, true, false, true, true, false, true, true, true], fitness = 90.3225806451613 %, limit = 0, nrFeatures = 13 ]
+Executado em 0 percorrendo 1246 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+
+
+IrisFeatureSelectionExecution
+executeFullFeaturesWithNoFilters
+Full 96.66666666666667 %
+executeWithNoFilter
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [20], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, true, true, true], fitness = 97.33333333333333 %, limit = 0, nrFeatures = 3 ]
+Executado em 0 percorrendo 11 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesNormalized
+Full 96.0 %
+executeWithNormalization
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [20], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, false, false, true], fitness = 96.0 %, limit = 0, nrFeatures = 1 ]
+Executado em 0 percorrendo 14 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesZScore
+Full 96.66666666666667 %
+executeWithZScore
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [20], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [true, true, true, true], fitness = 96.66666666666667 %, limit = 0, nrFeatures = 4 ]
+Executado em 0 percorrendo 14 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+
+
+LaborFeatureSelectionExecution
+executeFullFeaturesWithNoFilters
+Full 91.2280701754386 %
+executeWithNoFilter
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, true, true, false, true, true, false, true, false, false, false, true, true, true, false, true], fitness = 96.49122807017544 %, limit = 0, nrFeatures = 9 ]
+Executado em 0 percorrendo 1348 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesNormalized
+Full 87.71929824561404 %
+executeWithNormalization
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, false, false, false, false, false, true, false, false, false, true, false, false, false, false, true], fitness = 91.2280701754386 %, limit = 0, nrFeatures = 3 ]
+Executado em 0 percorrendo 1814 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesZScore
+Full 89.47368421052632 %
+executeWithZScore
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [true, true, true, false, true, true, false, false, true, false, true, true, true, true, true, false], fitness = 98.24561403508773 %, limit = 0, nrFeatures = 11 ]
+Executado em 0 percorrendo 1314 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+
+
+LymphFeatureSelectionExecution
+executeFullFeaturesWithNoFilters
+Full 79.72972972972973 %
+executeWithNoFilter
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [true, true, true, true, true, true, true, true, true, true, true, false, true, false, true, false, false, false], fitness = 84.45945945945945 %, limit = 0, nrFeatures = 13 ]
+Executado em 0 percorrendo 1052 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesNormalized
+Full 80.4054054054054 %
+executeWithNormalization
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, true, false, true, true, false, false, true, true, false, false, false, true, true, true, true, true, true], fitness = 84.45945945945945 %, limit = 0, nrFeatures = 11 ]
+Executado em 0 percorrendo 558 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesZScore
+Full 79.05405405405405 %
+executeWithZScore
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, true, true, false, false, true, false, true, true, false, true, false, true, true, true, true, true, true], fitness = 85.13513513513513 %, limit = 0, nrFeatures = 12 ]
+Executado em 0 percorrendo 840 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+
+SickFeatureSelectionExecution
+executeFullFeaturesWithNoFilters
+Full 93.87592788971368 %
+executeWithNoFilter
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR

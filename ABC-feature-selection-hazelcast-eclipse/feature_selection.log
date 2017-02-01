@@ -1,0 +1,13 @@
+executeFullFeaturesWithNoFilters
+Full 95.33333333333333 %
+executeWithNoFilter
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [20], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, false, true, true], fitness = 96.0 %, limit = 0, nrFeatures = 2 ]
+Executado em 0 percorrendo 4 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesNormalized
+Full 95.33333333333333 %
+executeWithNormalization
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [20], Limit [6], MR [0.1], perturbation [USE_MR

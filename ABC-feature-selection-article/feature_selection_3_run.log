@@ -1,0 +1,35 @@
+
+
+ZooFeatureSelectionExecution
+executeFullFeaturesWithNoFilters
+Full 49.504950495049506 %
+executeWithNoFilter
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, false, false, true, true, false, true, false, true, true, true, false, false, true, true, false, false], fitness = 95.04950495049505 %, limit = 0, nrFeatures = 8 ]
+Executado em 0 percorrendo 1770 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesNormalized
+Full 47.524752475247524 %
+executeWithNormalization
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, false, true, true, true, true, true, false, true, true, false, false, true, false, false, false, false], fitness = 92.07920792079207 %, limit = 0, nrFeatures = 8 ]
+Executado em 1 percorrendo 3148 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+executeFullFeaturesZScore
+Full 49.504950495049506 %
+executeWithZScore
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR
+Best FoodSource [ features = [false, true, true, true, true, false, true, false, true, true, true, false, true, true, true, false, false], fitness = 96.03960396039604 %, limit = 0, nrFeatures = 11 ]
+Executado em 0 percorrendo 1631 estados
+Feature Selection END----------------------------------------------------------------------------------------------------------
+
+
+SickFeatureSelectionExecution
+executeFullFeaturesWithNoFilters
+Full 93.87592788971368 %
+executeWithNoFilter
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [100], Limit [6], MR [0.1], perturbation [USE_MR

@@ -1,0 +1,27 @@
+HeartStatlogFeatureSelectionExecution
+
+aumenta cross sim 1
+diminui não 0.2
+aumenta poulação sim 100
+diminui tb 10
+probMutação não
+aumenta generation sim 100
+diminui não 10
+frequency não
+
+
+HepaticFeatureSelectionExecution
+
+aumenta cross nao 1
+diminui sim 0.2
+aumenta poulação sim 100
+diminui nao 10
+probMutação não
+aumenta generation sim 100
+diminui não 10
+frequency não
+
+
+ImageSegmentationFeatureSelectionExecution
+
+só aumentando generation

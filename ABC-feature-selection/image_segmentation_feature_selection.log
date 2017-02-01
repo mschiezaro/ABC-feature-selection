@@ -1,0 +1,23 @@
+executeFullFeaturesWithNoFilters
+Full 97.14285714285714 %
+executeWithNoFilter
+Feature Selection START--------------------------------------------------------------------------------------------------------
+Runtime [50], Limit [15], MR [0.05], perturbation [USE_MR
+Best FoodSource [ features = [false, true, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, true, false], fitness = 93.07359307359307 %, limit = 0, nrFeatures = 3 ]
+Executado na iteração 0
+Best FoodSource [ features = [true, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, true, false, true], fitness = 96.4069264069264 %, limit = 0, nrFeatures = 5 ]
+Executado na iteração 1
+Best FoodSource [ features = [false, true, false, false, false, false, false, false, true, false, true, false, false, false, false, false, false, false, true], fitness = 97.01298701298701 %, limit = 0, nrFeatures = 4 ]
+Executado na iteração 2
+Best FoodSource [ features = [false, true, false, false, false, false, false, false, false, false, true, false, false, true, false, true, true, false, true], fitness = 97.27272727272727 %, limit = 0, nrFeatures = 6 ]
+Executado na iteração 3
+Best FoodSource [ features = [false, true, false, false, false, false, false, false, true, false, true, false, true, true, false, true, false, false, true], fitness = 97.40259740259741 %, limit = 0, nrFeatures = 7 ]
+Executado na iteração 4
+Best FoodSource [ features = [false, true, false, false, false, false, true, false, false, false, true, false, false, true, false, true, false, false, false], fitness = 97.4891774891775 %, limit = 0, nrFeatures = 5 ]
+Executado na iteração 5
+Best FoodSource [ features = [true, true, true, false, false, false, false, true, true, true, true, true, false, true, false, true, false, true, true], fitness = 97.74891774891775 %, limit = 0, nrFeatures = 12 ]
+Executado na iteração 6
+Best FoodSource [ features = [true, true, true, false, false, false, false, true, true, true, true, true, false, true, false, true, false, true, true], fitness = 97.74891774891775 %, limit = 0, nrFeatures = 12 ]
+Executado na iteração 7
+Best FoodSource [ features = [true, true, true, false, false, false, false, true, true, true, true, true, false, true, false, true, false, true, true], fitness = 97.74891774891775 %, limit = 0, nrFeatures = 12 ]
+Executado na iteração 8

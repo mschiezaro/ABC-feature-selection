@@ -1,0 +1,24 @@
+BestFirst----------------------------------------------------------------------------
+42,93,94,109,113,121,163,223,279 66.15044247787611
+bestFirst.setLookupCacheSize(1);
+bestFirst.setSearchTermination(5);
+
+GASearch----------------------------------------------------------------------------
+0,4,5,8,11,14,15,29,39,45,47,48,50,51,53,57,60,66,75,76,78,80,83,84,90,92,95,102,105,106,107,111,112,119,120,123,124,128,132,134,135,136,140,142,147,148,152,153,166,167,169,170,175,176,177,185,186,191,193,194,196,198,202,206,208,212,215,216,217,218,222,225,226,229,231,232,233,236,239,240,248,249,251,258,259,260,263,266,269,271,272,274,275,276,277,279 70.79646017699115
+geneticSearch.setCrossoverProb(1);
+geneticSearch.setPopulationSize(20);
+geneticSearch.setMutationProb(0.033);
+geneticSearch.setMaxGenerations(500);
+geneticSearch.setReportFrequency(20);
+
+linearForward----------------------------------------------------------------------------
+26,42,93,94,109,113,121,142,163,223,279 66.15044247787611
+linearForward.setLookupCacheSize(1);		
+linearForward.setNumUsedAttributes(200);
+linearForward.setPerformRanking(true);
+linearForward.setSearchTermination(5);
+
+
+Selected attributes: 71,224 : 2
+                     chAVL_DD_RRwaveExists
+                     chV1_RPwaveAmp

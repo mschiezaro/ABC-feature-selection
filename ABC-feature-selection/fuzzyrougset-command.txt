@@ -1,0 +1,119 @@
+java -Xms512m -Xmx3000m weka.attributeSelection.FuzzyRoughSubsetEval -s "weka.attributeSelection.PSOSearch -Z 200 -G 30 -A 1.0 -B 2.0 -R 30 -S 1 -C 10001" -i faces-yale.arff -x 10 >>PSO.txt
+
+
+export CLASSPATH=$CLASSPATH:/home/ubuntu/weka-fuzzy/weka.jar
+
+
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.FuzzyRoughSubsetEval -Z weka.fuzzy.measure.WeakGamma -I weka.fuzzy.implicator.ImplicatorLukasiewicz -T weka.fuzzy.tnorm.TNormLukasiewicz -R "weka.fuzzy.similarity.Similarity3 -R first-last -T weka.fuzzy.tnorm.TNormLukasiewicz -C 0.0"
+Search:       weka.attributeSelection.PSOSearch -Z 200 -G 30 -A 1.0 -B 2.0 -R 30 -S 1 -C 10001
+Relation:     faces_yale64_64
+Instances:    165
+Attributes:   4097
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	PSO search.
+	Population size: 200
+	Number of generations: 30
+	C1:  1    
+	C2:  2    
+	Report frequency: 30
+	Random number seed: 1
+
+Generation: 30
+
+Attribute Subset Evaluator (supervised, Class (nominal): 4097 class):
+
+Fuzzy rough feature selection
+
+Method: Weak gamma
+Similarity measure: max(min( (a(y)-(a(x)-sigma_a)) / (a(x)-(a(x)-sigma_a)),((a(x)+sigma_a)-a(y)) / ((a(x)+sigma_a)-a(x)) , 0).
+Decision similarity: Equivalence
+Implicator: Lukasiewicz
+T-Norm: Lukasiewicz
+Relation composition: Lukasiewicz
+(S-Norm: Lukasiewicz)
+
+Dataset consistency: 1.0
+
+Selected attributes: 598,797,1365,1532,1834,1869,1953,2131,2238,2664,2889,2914,2946,3121,3152,3161,3342,3745,4032 : 19
+                     598
+                     797
+                     1365
+                     1532
+                     1834
+                     1869
+                     1953
+                     2131
+                     2238
+                     2664
+                     2889
+                     2914
+                     2946
+                     3121
+                     3152
+                     3161
+                     3342
+                     3745
+                     4032
+
+
+
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.FuzzyRoughSubsetEval -Z weka.fuzzy.measure.WeakGamma -I weka.fuzzy.implicator.ImplicatorLukasiewicz -T weka.fuzzy.tnorm.TNormLukasiewicz -R "weka.fuzzy.similarity.Similarity3 -R first-last -T weka.fuzzy.tnorm.TNormLukasiewicz -C 0.0"
+Search:       weka.attributeSelection.GeneticSearch -Z 200 -G 20 -C 0.6 -M 0.033 -R 20 -S 1
+Relation:     faces_yale64_64
+Instances:    165
+Attributes:   4097
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Genetic search.
+	Start set: no attributes
+	Population size: 200
+	Number of generations: 20
+	Probability of crossover:  0.6  
+	Probability of mutation:  0.033
+	Report frequency: 20
+	Random number seed: 1
+
+Attribute Subset Evaluator (supervised, Class (nominal): 4097 class):
+
+Fuzzy rough feature selection
+
+Method: Weak gamma
+Similarity measure: max(min( (a(y)-(a(x)-sigma_a)) / (a(x)-(a(x)-sigma_a)),((a(x)+sigma_a)-a(y)) / ((a(x)+sigma_a)-a(x)) , 0).
+Decision similarity: Equivalence
+Implicator: Lukasiewicz
+T-Norm: Lukasiewicz
+Relation composition: Lukasiewicz
+(S-Norm: Lukasiewicz)
+
+Dataset consistency: 1.0
+
+Selected attributes: 188,218,221,1285,1358,1834,2097,2500,2741,2928,3074,3554,4018 : 13
+                     188
+                     218
+                     221
+                     1285
+                     1358
+                     1834
+                     2097
+                     2500
+                     2741
+                     2928
+                     3074
+                     3554
+                     4018
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/attributeSelectionSearchMethods.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/chiSquaredAttributeEval.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/classifierBasedAttributeSelection.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/consistencySubsetEval.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/costSensitiveAttributeSelection.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/CVAttributeEval.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/EvolutionarySearch.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/fastCorrBasedFS.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/filteredAttributeSelection.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/hazelcast-all-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/IWSS.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/IWSSembeddedNB1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/linearForwardSelection.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/probabilisticSignificanceAE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/PSOSearch.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/raceSearch.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/RerankingSearch.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/SVMAttributeEval.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/tabuAndScatterSearch.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio/Dropbox/mestrado-feature-selection/programs/ABC-feature-selection-hazelcast-eclipse/lib/weka.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

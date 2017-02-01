@@ -1,0 +1,602 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.WrapperSubsetEval -B weka.classifiers.lazy.IBk -F 10 -T 0.01 -R 1 -E acc -- -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Search:       weka.attributeSelection.AntSearch -L weka.attributeSelection.ClassifierAttributeEval -Z 10 -G 10 -A 1.0 -B 2.0 -R 10 -S 1 -- -S 1 -F 10 -B "weka.classifiers.lazy.IBk -K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\""
+Relation:     pima_diabetes
+Instances:    768
+Attributes:   9
+              preg
+              plas
+              pres
+              skin
+              insu
+              mass
+              pedi
+              age
+              class
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Ant search.
+	Population size: 10
+	Number of generations: 10
+	Alpha:  1    
+	Beta:  2    
+	Report frequency: 10
+	Random number seed: 1
+
+Generation: 10
+merit     	subset
+ 0.57578	3 4 7 
+ 0.61094	1 4 5 
+ 0.66016	2 4 5 6 
+ 0.68646	1 2 3 4 6 7 8 
+ 0.66667	2 5 7 
+ 0.67969	1 2 3 5 8 
+ 0.63646	3 5 6 8 
+ 0.69245	1 2 6 7 
+ 0.71419	1 2 8 
+ 0.59245	1 4 6 
+Best subset found is 1 2 8  with merit: 0.7141927083333334
+
+Attribute Subset Evaluator (supervised, Class (nominal): 9 class):
+	Wrapper Subset Evaluator
+	Learning scheme: weka.classifiers.lazy.IBk
+	Scheme options: -K 1 -W 0 -A weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last" 
+	Subset evaluation: classification accuracy
+	Number of folds for accuracy estimation: 10
+
+Selected attributes: 1,2,8 : 3
+                     preg
+                     plas
+                     age
+
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.WrapperSubsetEval -B weka.classifiers.lazy.IBk -F 10 -T 0.01 -R 1 -E acc -- -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Search:       weka.attributeSelection.AntSearch -L weka.attributeSelection.ClassifierAttributeEval -Z 10 -G 10 -A 1.0 -B 2.0 -R 10 -S 1 -- -S 1 -F 10 -B "weka.classifiers.lazy.IBk -K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\""
+Relation:     breast-cancer-weka.filters.unsupervised.attribute.Standardize
+Instances:    286
+Attributes:   10
+              age
+              menopause
+              tumor-size
+              inv-nodes
+              node-caps
+              deg-malig
+              breast
+              breast-quad
+              irradiat
+              Class
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Ant search.
+	Population size: 10
+	Number of generations: 10
+	Alpha:  1    
+	Beta:  2    
+	Report frequency: 10
+	Random number seed: 1
+
+Generation: 10
+merit     	subset
+ 0.72517	1 5 8 
+ 0.72308	2 5 6 9 
+ 0.69441	1 2 8 
+ 0.71469	2 3 4 5 6 7 
+ 0.69406	3 4 9 
+ 0.6521 	1 3 7 
+ 0.71329	1 4 7 8 9 
+ 0.6986 	1 4 8 9 
+ 0.69301	2 3 4 5 8 
+ 0.71049	2 3 5 6 
+Best subset found is 5 6  with merit: 0.7517482517482518
+
+Attribute Subset Evaluator (supervised, Class (nominal): 10 Class):
+	Wrapper Subset Evaluator
+	Learning scheme: weka.classifiers.lazy.IBk
+	Scheme options: -K 1 -W 0 -A weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last" 
+	Subset evaluation: classification accuracy
+	Number of folds for accuracy estimation: 10
+
+Selected attributes: 5,6 : 2
+                     node-caps
+                     deg-malig
+
+
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.WrapperSubsetEval -B weka.classifiers.lazy.IBk -F 10 -T 0.01 -R 1 -E acc -- -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Search:       weka.attributeSelection.AntSearch -L weka.attributeSelection.ClassifierAttributeEval -Z 10 -G 10 -A 1.0 -B 2.0 -R 10 -S 1 -- -S 1 -F 10 -B "weka.classifiers.lazy.IBk -K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\""
+Relation:     autos
+Instances:    205
+Attributes:   26
+              normalized-losses
+              make
+              fuel-type
+              aspiration
+              num-of-doors
+              body-style
+              drive-wheels
+              engine-location
+              wheel-base
+              length
+              width
+              height
+              curb-weight
+              engine-type
+              num-of-cylinders
+              engine-size
+              fuel-system
+              bore
+              stroke
+              compression-ratio
+              horsepower
+              peak-rpm
+              city-mpg
+              highway-mpg
+              price
+              symboling
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Ant search.
+	Population size: 10
+	Number of generations: 10
+	Alpha:  1    
+	Beta:  2    
+	Report frequency: 10
+	Random number seed: 1
+
+Generation: 10
+merit     	subset
+ 0.78732	1 9 10 11 12 13 15 18 21 
+ 0.80293	1 9 10 11 12 13 16 20 
+ 0.77463	1 9 10 11 
+ 0.78829	1 3 8 9 10 11 12 21 
+ 0.75512	1 9 10 11 19 
+ 0.72488	9 10 17 
+ 0.72   	4 5 9 10 11 15 16 17 19 20 
+ 0.75512	1 9 10 11 19 
+ 0.78634	1 9 10 15 16 19 
+ 0.63805	4 9 10 23 
+Best subset found is 1 8 9 10 11 12  with merit: 0.8146341463414635
+
+Attribute Subset Evaluator (supervised, Class (nominal): 26 symboling):
+	Wrapper Subset Evaluator
+	Learning scheme: weka.classifiers.lazy.IBk
+	Scheme options: -K 1 -W 0 -A weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last" 
+	Subset evaluation: classification accuracy
+	Number of folds for accuracy estimation: 10
+
+Selected attributes: 1,8,9,10,11,12 : 6
+                     normalized-losses
+                     engine-location
+                     wheel-base
+                     length
+                     width
+                     height
+
+
+
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.WrapperSubsetEval -B weka.classifiers.lazy.IBk -F 10 -T 0.01 -R 1 -E acc -- -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Search:       weka.attributeSelection.AntSearch -L weka.attributeSelection.ClassifierAttributeEval -Z 10 -G 10 -A 1.0 -B 2.0 -R 10 -S 1 -- -S 1 -F 10 -B "weka.classifiers.lazy.IBk -K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\""
+Relation:     Glass
+Instances:    214
+Attributes:   10
+              RI
+              Na
+              Mg
+              Al
+              Si
+              K
+              Ca
+              Ba
+              Fe
+              Type
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Ant search.
+	Population size: 10
+	Number of generations: 10
+	Alpha:  1    
+	Beta:  2    
+	Report frequency: 10
+	Random number seed: 1
+
+Generation: 10
+merit     	subset
+ 0.73551	1 3 4 5 6 
+ 0.47664	3 5 9 
+ 0.76449	1 2 3 4 5 6 7 8 
+ 0.48505	2 4 6 
+ 0.72897	2 3 4 5 6 7 
+ 0.50935	4 6 8 
+ 0.7785 	1 3 4 6 7 8 
+ 0.75234	1 2 3 4 6 8 
+ 0.73551	1 2 3 4 6 
+ 0.50935	4 6 8 
+Best subset found is 1 3 4 6 7 8  with merit: 0.7785046728971963
+
+Attribute Subset Evaluator (supervised, Class (nominal): 10 Type):
+	Wrapper Subset Evaluator
+	Learning scheme: weka.classifiers.lazy.IBk
+	Scheme options: -K 1 -W 0 -A weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last" 
+	Subset evaluation: classification accuracy
+	Number of folds for accuracy estimation: 10
+
+Selected attributes: 1,3,4,6,7,8 : 6
+                     RI
+                     Mg
+                     Al
+                     K
+                     Ca
+                     Ba
+
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.WrapperSubsetEval -B weka.classifiers.lazy.IBk -F 10 -T 0.01 -R 1 -E acc -- -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Search:       weka.attributeSelection.AntSearch -L weka.attributeSelection.ClassifierAttributeEval -Z 10 -G 10 -A 1.0 -B 2.0 -R 10 -S 1 -- -S 1 -F 10 -B "weka.classifiers.lazy.IBk -K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\""
+Relation:     cleveland-14-heart-disease
+Instances:    303
+Attributes:   14
+              age
+              sex
+              cp
+              trestbps
+              chol
+              fbs
+              restecg
+              thalach
+              exang
+              oldpeak
+              slope
+              ca
+              thal
+              num
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Ant search.
+	Population size: 10
+	Number of generations: 10
+	Alpha:  1    
+	Beta:  2    
+	Report frequency: 10
+	Random number seed: 1
+
+Generation: 10
+merit     	subset
+ 0.76073	8 10 12 13 
+ 0.64356	3 5 6 7 8 
+ 0.7769 	7 11 12 13 
+ 0.82343	9 12 13 
+ 0.82343	9 12 13 
+ 0.76568	1 8 9 10 12 13 
+ 0.54653	1 6 7 
+ 0.76106	2 3 4 9 11 12 13 
+ 0.64686	7 8 9 
+ 0.75743	2 7 12 13 
+Best subset found is 9 12 13  with merit: 0.8234323432343235
+
+Attribute Subset Evaluator (supervised, Class (nominal): 14 num):
+	Wrapper Subset Evaluator
+	Learning scheme: weka.classifiers.lazy.IBk
+	Scheme options: -K 1 -W 0 -A weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last" 
+	Subset evaluation: classification accuracy
+	Number of folds for accuracy estimation: 10
+
+Selected attributes: 9,12,13 : 3
+                     exang
+                     ca
+                     thal
+
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.WrapperSubsetEval -B weka.classifiers.lazy.IBk -F 10 -T 0.01 -R 1 -E acc -- -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Search:       weka.attributeSelection.AntSearch -L weka.attributeSelection.ClassifierAttributeEval -Z 10 -G 10 -A 1.0 -B 2.0 -R 10 -S 1 -- -S 1 -F 10 -B "weka.classifiers.lazy.IBk -K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\""
+Relation:     heart-statlog
+Instances:    270
+Attributes:   14
+              age
+              sex
+              chest
+              resting_blood_pressure
+              serum_cholestoral
+              fasting_blood_sugar
+              resting_electrocardiographic_results
+              maximum_heart_rate_achieved
+              exercise_induced_angina
+              oldpeak
+              slope
+              number_of_major_vessels
+              thal
+              class
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Ant search.
+	Population size: 10
+	Number of generations: 10
+	Alpha:  1    
+	Beta:  2    
+	Report frequency: 10
+	Random number seed: 1
+
+Generation: 10
+merit     	subset
+ 0.75333	3 7 10 11 12 
+ 0.69778	5 6 10 12 
+ 0.70185	8 12 13 
+ 0.59037	4 5 6 7 11 
+ 0.68704	1 11 13 
+ 0.70148	1 4 8 9 10 12 
+ 0.67111	6 8 13 
+ 0.69407	1 3 9 
+ 0.63778	3 4 5 
+ 0.77556	2 9 12 
+Best subset found is 9 12 13  with merit: 0.837037037037037
+
+Attribute Subset Evaluator (supervised, Class (nominal): 14 class):
+	Wrapper Subset Evaluator
+	Learning scheme: weka.classifiers.lazy.IBk
+	Scheme options: -K 1 -W 0 -A weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last" 
+	Subset evaluation: classification accuracy
+	Number of folds for accuracy estimation: 10
+
+Selected attributes: 9,12,13 : 3
+                     exercise_induced_angina
+                     number_of_major_vessels
+                     thal
+
+
+
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.WrapperSubsetEval -B weka.classifiers.lazy.IBk -F 10 -T 0.01 -R 1 -E acc -- -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Search:       weka.attributeSelection.AntSearch -L weka.attributeSelection.ClassifierAttributeEval -Z 10 -G 10 -A 1.0 -B 2.0 -R 10 -S 1 -- -S 1 -F 10 -B "weka.classifiers.lazy.IBk -K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\""
+Relation:     hepatitis
+Instances:    155
+Attributes:   20
+              AGE
+              SEX
+              STEROID
+              ANTIVIRALS
+              FATIGUE
+              MALAISE
+              ANOREXIA
+              LIVER_BIG
+              LIVER_FIRM
+              SPLEEN_PALPABLE
+              SPIDERS
+              ASCITES
+              VARICES
+              BILIRUBIN
+              ALK_PHOSPHATE
+              SGOT
+              ALBUMIN
+              PROTIME
+              HISTOLOGY
+              Class
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Ant search.
+	Population size: 10
+	Number of generations: 10
+	Alpha:  1    
+	Beta:  2    
+	Report frequency: 10
+	Random number seed: 1
+
+Generation: 10
+merit     	subset
+ 0.76774	7 10 18 
+ 0.77806	5 6 7 10 13 19 
+ 0.82452	2 8 12 17 
+ 0.70452	1 2 9 19 
+ 0.75484	3 7 17 
+ 0.7871 	5 17 19 
+ 0.78323	6 8 9 
+ 0.8    	6 12 13 14 15 
+ 0.73935	1 9 10 11 
+ 0.80516	11 12 17 19 
+Best subset found is 3 6 10 12 17  with merit: 0.8683870967741936
+
+Attribute Subset Evaluator (supervised, Class (nominal): 20 Class):
+	Wrapper Subset Evaluator
+	Learning scheme: weka.classifiers.lazy.IBk
+	Scheme options: -K 1 -W 0 -A weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last" 
+	Subset evaluation: classification accuracy
+	Number of folds for accuracy estimation: 10
+
+Selected attributes: 3,6,10,12,17 : 5
+                     STEROID
+                     MALAISE
+                     SPLEEN_PALPABLE
+                     ASCITES
+                     ALBUMIN
+
+
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.WrapperSubsetEval -B weka.classifiers.lazy.IBk -F 10 -T 0.01 -R 1 -E acc -- -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Search:       weka.attributeSelection.AntSearch -L weka.attributeSelection.ClassifierAttributeEval -Z 10 -G 10 -A 1.0 -B 2.0 -R 10 -S 1 -- -S 1 -F 10 -B "weka.classifiers.lazy.IBk -K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\""
+Relation:     labor-weka.filters.unsupervised.attribute.Standardize
+Instances:    57
+Attributes:   17
+              duration
+              wage-increase-first-year
+              wage-increase-second-year
+              wage-increase-third-year
+              cost-of-living-adjustment
+              working-hours
+              pension
+              standby-pay
+              shift-differential
+              education-allowance
+              statutory-holidays
+              vacation
+              longterm-disability-assistance
+              contribution-to-dental-plan
+              bereavement-assistance
+              contribution-to-health-plan
+              class
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Ant search.
+	Population size: 10
+	Number of generations: 10
+	Alpha:  1    
+	Beta:  2    
+	Report frequency: 10
+	Random number seed: 1
+
+Generation: 10
+merit     	subset
+ 0.66316	5 12 15 
+ 0.65965	3 8 9 11 
+ 0.80702	2 3 8 10 15 
+ 0.82456	3 4 5 10 14 
+ 0.75439	4 7 9 10 12 
+ 0.80351	2 7 9 10 12 
+ 0.76842	3 4 10 
+ 0.74737	13 15 16 
+ 0.78246	2 8 12 
+ 0.8807 	2 5 11 12 14 16 
+Best subset found is 7 8 9 16  with merit: 0.9403508771929825
+
+Attribute Subset Evaluator (supervised, Class (nominal): 17 class):
+	Wrapper Subset Evaluator
+	Learning scheme: weka.classifiers.lazy.IBk
+	Scheme options: -K 1 -W 0 -A weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last" 
+	Subset evaluation: classification accuracy
+	Number of folds for accuracy estimation: 10
+
+Selected attributes: 7,8,9,16 : 4
+                     pension
+                     standby-pay
+                     shift-differential
+                     contribution-to-health-plan
+
+
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.WrapperSubsetEval -B weka.classifiers.lazy.IBk -F 10 -T 0.01 -R 1 -E acc -- -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Search:       weka.attributeSelection.AntSearch -L weka.attributeSelection.ClassifierAttributeEval -Z 10 -G 10 -A 1.0 -B 2.0 -R 10 -S 1 -- -S 1 -F 10 -B "weka.classifiers.lazy.IBk -K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\""
+Relation:     segment
+Instances:    2310
+Attributes:   20
+              region-centroid-col
+              region-centroid-row
+              region-pixel-count
+              short-line-density-5
+              short-line-density-2
+              vedge-mean
+              vegde-sd
+              hedge-mean
+              hedge-sd
+              intensity-mean
+              rawred-mean
+              rawblue-mean
+              rawgreen-mean
+              exred-mean
+              exblue-mean
+              exgreen-mean
+              value-mean
+              saturation-mean
+              hue-mean
+              class
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Ant search.
+	Population size: 10
+	Number of generations: 10
+	Alpha:  1    
+	Beta:  2    
+	Report frequency: 10
+	Random number seed: 1
+
+Generation: 10
+merit     	subset
+ 0.90329	3 10 11 12 13 14 17 19 
+ 0.90407	11 12 13 14 17 19 
+ 0.97013	2 10 11 13 19 
+ 0.90346	1 10 11 13 19 
+ 0.96372	1 2 10 11 12 14 17 19 
+ 0.91593	5 7 9 11 12 18 19 
+ 0.92009	1 11 13 15 17 19 
+ 0.88939	4 11 12 17 19 
+ 0.91022	11 12 13 15 19 
+ 0.91299	11 12 13 15 16 17 18 19 
+Best subset found is 1 2 3 6 8 9 10 11 12 13 14 15 16 17 18 19  with merit: 0.9747186147186148
+
+Attribute Subset Evaluator (supervised, Class (nominal): 20 class):
+	Wrapper Subset Evaluator
+	Learning scheme: weka.classifiers.lazy.IBk
+	Scheme options: -K 1 -W 0 -A weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last" 
+	Subset evaluation: classification accuracy
+	Number of folds for accuracy estimation: 10
+
+Selected attributes: 1,2,3,6,8,9,10,11,12,13,14,15,16,17,18,19 : 16
+                     region-centroid-col
+                     region-centroid-row
+                     region-pixel-count
+                     vedge-mean
+                     hedge-mean
+                     hedge-sd
+                     intensity-mean
+                     rawred-mean
+                     rawblue-mean
+                     rawgreen-mean
+                     exred-mean
+                     exblue-mean
+                     exgreen-mean
+                     value-mean
+                     saturation-mean
+                     hue-mean
+
+
+
